@@ -14,6 +14,20 @@
     width: 300px;
 }
 
+.banner__search{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__searchButton {
+    background-color: #fff !important;
+    font-weight: 900  !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}
+
+
+
 .banner__info button {
     background-color: #ff7779;
     color: #fff;
