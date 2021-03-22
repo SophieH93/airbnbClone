@@ -7,7 +7,7 @@ import { useHistory } from "react-router-dom";
 function Banner() {
     const history = useHistory();
     const [showSearch, setShowSearch] =  useState
-    (true);
+    (false);
 
     return (
         <div className="banner">
@@ -30,6 +30,7 @@ function Banner() {
                 </Button>
             </div>
         </div>
+     
     )
 }
 
