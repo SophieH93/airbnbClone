@@ -6,3 +6,12 @@ Deleted all test files in src.
 Remove header section from app.js
 
 
+## Technologies Used:
+- Javascript
+- Reactjs 
+- Material-UI
+
+
+react-date-range to add calendar
+
+
