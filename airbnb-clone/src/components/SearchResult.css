@@ -60,6 +60,7 @@
     align-items: center;
 }
 
+
 .searchResult__price p {
     text-align: right;
 }
@@ -70,3 +71,41 @@
     right: 20px;
 }
 
+@media only screen and (max-width: 812px) {
+
+    .searchResult {
+        margin: 10px;
+        padding: 0;
+    }
+
+    .searchResult__heart {
+        top: -15px;
+        right: 0;
+    } 
+
+    .searchResult__infoTop {
+        width: 41vw;
+        padding-bottom: 15px;
+    }  
+    
+    .searchResult__infoTop h3 {        
+        margin-top: 5px;
+    }
+
+    .searchResult__infoTop p {
+        margin-top: 0;
+    }
+
+    .searchResult__price  {
+        bottom: -46x;
+        font-size: 10px;
+        right: 0;
+        display: flex;
+        padding-top: 30px;
+    }
+   
+    .searchResult__price p {
+        display: none;
+    }
+    
+}
