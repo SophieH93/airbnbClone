@@ -27,7 +27,6 @@
 }
 
 
-
 .banner__info button {
     background-color: #ff7779;
     color: #fff;
@@ -44,3 +43,13 @@
 .banner__info h5 {
     margin-top: 10px;
 }
+
+
+@media only screen and (max-width: 812px) {
+    .banner__info {
+        padding-top: 10vh;        
+        padding-left: 30px;
+        padding-bottom: 40px;
+    }
+}
+
