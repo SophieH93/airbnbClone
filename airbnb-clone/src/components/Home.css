@@ -3,3 +3,11 @@
     padding: 30px;
 }
 
+@media only screen and (max-width: 812px) {
+    .home__section {
+        padding: 0;
+        flex-direction: column;
+    }
+ 
+    
+ }
